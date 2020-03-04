@@ -42,7 +42,6 @@ Execution:
 3. After execution under test-output folder --> testReport.html --> open this with system explorer --> you can see the Execution status
 4. Execution will happen in browserstack and results can also be viewed under the build
 
-
 Scope to enhance:
 
 > Central repository to have all JAR files and it can be given in build.gradle under repository function.
