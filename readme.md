@@ -9,25 +9,25 @@ Installation:
 1. JAVA with latest or higher than 192 version.
 2. Oxygen Eclipse - can be downloaded from https://www.eclipse.org/oxygen/
 3. Gradle distribution files set up method
-	3.a - Download the gradle:
-		wget https://services.gradle.org/distributions/gradle-5.0-bin.zip -P /tmp
-		uudo unzip -d /opt/gradle /tmp/gradle-*.zip
+3.a - Download the gradle:
+wget https://services.gradle.org/distributions/gradle-5.0-bin.zip -P /tmp
+uudo unzip -d /opt/gradle /tmp/gradle-*.zip
 
-	3.b - Set Up Environment Variable:
-	open your text editor and create a new file named gradle.sh inside of the /etc/profile.d/ directory.
-		sudo nano /etc/profile.d/gradle.sh
-	Paste the following:
-		export GRADLE_HOME=/opt/gradle/gradle-5.0
-		export PATH=${GRADLE_HOME}/bin:${PATH}
+3.b - Set Up Environment Variable:
+open your text editor and create a new file named gradle.sh inside of the /etc/profile.d/ directory.
+sudo nano /etc/profile.d/gradle.sh
+Paste the following:
+export GRADLE_HOME=/opt/gradle/gradle-5.0
+export PATH=${GRADLE_HOME}/bin:${PATH}
 
-	Make the script executable by issuing the following chmod command:
-		sudo chmod +x /etc/profile.d/gradle.sh
+Make the script executable by issuing the following chmod command:
+sudo chmod +x /etc/profile.d/gradle.sh
 
-	Load the environment variables using the source command:
-		source /etc/profile.d/gradle.sh
+Load the environment variables using the source command:
+source /etc/profile.d/gradle.sh
 
-	3.c - Verify the Gradle installation:
-		gradle -v
+3.c - Verify the Gradle installation:
+gradle -v
 
 4. TestNG plugins can be installed from eclipse -> windows preferences -> install software.
 5. Download all required JAR files and load it under project build path.
