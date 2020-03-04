@@ -172,6 +172,7 @@ public class AutomationTest {
 			driver = new RemoteWebDriver (brsURL,cap);	
 		}
 	
+	
 /*
  *  EXTENT Report is third party report method which is integrated with TESTNG Framework
  *  
