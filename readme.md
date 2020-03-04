@@ -1,7 +1,4 @@
 
-
-
-
 RAILS SAMPLE APP PROJECT
 
 This Application is Online blog sharing site where one person can post information after successful registration. Automation suite is developed to test the application using selenium with Java. 
@@ -12,11 +9,11 @@ Installation:
 1. JAVA with latest or higher than 192 version.
 2. Oxygen Eclipse - can be downloaded from https://www.eclipse.org/oxygen/
 3. Gradle distribution files set up method
-	3.i - Download the gradle:
+	3.a - Download the gradle:
 		wget https://services.gradle.org/distributions/gradle-5.0-bin.zip -P /tmp
 		uudo unzip -d /opt/gradle /tmp/gradle-*.zip
 
-	3.ii - SET UP ENVIRONMENT VARIABLE:
+	3.b - Set Up Environment Variable:
 	open your text editor and create a new file named gradle.sh inside of the /etc/profile.d/ directory.
 		sudo nano /etc/profile.d/gradle.sh
 	Paste the following:
@@ -29,7 +26,7 @@ Installation:
 	Load the environment variables using the source command:
 		source /etc/profile.d/gradle.sh
 
-	3.iii - Verify the Gradle installation:
+	3.c - Verify the Gradle installation:
 		gradle -v
 
 4. TestNG plugins can be installed from eclipse -> windows preferences -> install software.
@@ -46,6 +43,5 @@ Execution:
 Scope to enhance:
 
 > Central repository to have all JAR files and it can be given in build.gradle under repository function.
-
 > Performance testing using JMeter can also be done to test the site response for high load
 
